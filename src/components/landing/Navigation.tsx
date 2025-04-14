@@ -46,13 +46,16 @@ export const Navigation = () => {
           >
             Our marketplace
           </Link>
-          <Link
-            to="/"
-            className="ml-2 px-4 py-1.5 bg-white text-[#6B047C] rounded text-sm font-medium transition-all duration-300 hover:bg-purple-100 hover:scale-105 flex items-center gap-1 group"
-          >
-            Get started
-            <span className="text-xs transition-transform duration-300 group-hover:translate-x-1">→</span>
-          </Link>
+       <a
+  href="https://dashboard-pages-mu.vercel.app/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="ml-2 px-4 py-1.5 bg-white text-[#6B047C] rounded text-sm font-medium transition-all duration-300 hover:bg-purple-100 hover:scale-105 flex items-center gap-1 group"
+>
+  Get started
+  <span className="text-xs transition-transform duration-300 group-hover:translate-x-1">→</span>
+</a>
+
         </nav>
 
         {/* Hamburger Menu Button */}
